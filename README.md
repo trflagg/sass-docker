@@ -1,13 +1,9 @@
-sass
+sass v0.1
 ====
+A docker image for compoling sass.
 
-Use this image to watch a directory of SASS files and automatically compile on change.
+By default it watches for changes in `/src/`
 
-Usage:
+Use `command` to specify arguments to sass.
 
-``` bash
-$ docker run -v $PWD/public/css:/src --rm larryprice/sass
-```
-
-Where `$PWD/public/css` is the directory containing your sass files.
-
+Forked from https://github.com/larryprice/sass-docker
